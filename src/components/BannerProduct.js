@@ -1,10 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import image1 from '../assest/banner/image1.png'
 import image2 from '../assest/banner/image2.png'
-import image3 from '../assest/banner/image3.png'
-import image4 from '../assest/banner/image4.png'
-import image5 from '../assest/banner/image5.png'
-import image6 from '../assest/banner/image6.png' 
+
 
 import image1Mobile from '../assest/banner/img1_mobile.jpg'
 import image2Mobile from '../assest/banner/img2_mobile.webp'
@@ -21,20 +18,12 @@ const BannerProduct = () => {
 
     const desktopImages = [
         image1,
-        image2,
-        image3,
-        image4,
-        image5,
-        image6
+        image2
     ]
 
     const mobileImages = [
         image1,
-        image2,
-        image3,
-        image4,
-        image5,
-        image6
+        image2
     ]
 
     const nextImage = () =>{
